@@ -1,0 +1,90 @@
+@mixin cel-animation($cels, $frame-rate: 0.25, $alternate: false, $iterations: infinite) {
+  
+  // Init frame count
+  $frame-count: 0;
+  
+  // Get the frame count
+  @each $cel in $cels {
+    $frame-count: $frame-count + $cel;
+  }
+  
+  // The mixin operates on its child "frames"
+  > * {
+    
+    // set to invisible to start with
+    opacity: 0;
+    
+    // you get the overall animation duration by multiplying
+    // the number of frames by the frame rate (seconds) 
+    animation-duration: $frame-count * $frame-rate * 1s;
+    
+    // set alternating direction if true (which is default)
+    @if $alternate {
+      animation-direction: alternate;
+    }
+
+    // default is infinite
+    animation-iteration-count: $iterations;
+
+    // if alternating direction is true (above) and
+    // iterations are not infinite, double the iterations
+    // to treat a back-AND-forth as one iteration
+    @if $iterations != infinite and $alternate {
+      $iterations: $iterations * 2;
+    }
+
+    // Hard show/hide (no fading)
+    animation-timing-function: steps(1);
+
+  }
+
+  // the fraction of 1 for which each frame is visible
+  // eg. 0.333 if there are 3 frames
+  $frame-fraction: 100 / $frame-count;
+  
+  // iterate over each integer in $cels
+  @for $i from 1 through length($cels) {
+
+    $name: unique-id();
+
+    // init start variable
+    $start: 0;
+    
+    // init count of frames before
+    $frames-before: 0;
+    
+    // get the number of frames that have elapsed before
+    // the current cel appears
+    @for $cel from 1 to $i {
+      @if ($i > 1) {
+        $frames-before: $frames-before + nth($cels, $cel);
+      }
+    }
+    
+    // define start and end of animation
+    $start: $frames-before * $frame-fraction;
+    $end: $start + ($frame-fraction * nth($cels, $i));
+  
+    // generate dynamic keyframes declaration
+    // based on sanitized class name + iteration number
+    @keyframes cel-#{$name} {
+      #{$start * 1%} {
+        opacity: 1;
+      }
+      #{$end * 1%} {
+        opacity: 0;
+      }
+    }
+
+    // assign animation to each cel (child elem) in turn
+    > :nth-child(#{$i}) {
+      animation-name: cel-#{$name};
+    }
+
+  }
+  
+}
+
+.running-jobs {
+    @include cel-animation((1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1))
+}

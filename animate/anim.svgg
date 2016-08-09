@@ -1,0 +1,36 @@
+/*
+Error: The line was indented 2 levels deeper than the previous line.
+        on line 8 of anim.svg
+
+3:     @include 'cell-animation'
+4: 
+5:   </style>
+6:   <g class="running-jobs">
+7:     <path d="./aug5_runningRes_001.svg"></path>
+8:         <path d="./aug5_runningRes_002.svg"></path>
+9:         <path d="./aug5_runningRes_003.svg"></path>
+10:         <path d="./aug5_runningRes_004.svg"></path>
+11:         <path d="./aug5_runningRes_005.svg"></path>
+12:         <path d="./aug5_runningRes_006.svg"></path>
+13:         <path d="./aug5_runningRes_007.svg"></path>
+
+Backtrace:
+anim.svg:8
+/usr/local/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/engine.rb:520:in `tree'
+/usr/local/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/engine.rb:524:in `tree'
+/usr/local/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/engine.rb:524:in `tree'
+/usr/local/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/engine.rb:409:in `_to_tree'
+/usr/local/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/engine.rb:381:in `_render_with_sourcemap'
+/usr/local/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/engine.rb:298:in `render_with_sourcemap'
+/usr/local/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/exec/sass_scss.rb:391:in `run'
+/usr/local/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/exec/sass_scss.rb:63:in `process_result'
+/usr/local/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/exec/base.rb:52:in `parse'
+/usr/local/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/exec/base.rb:19:in `parse!'
+/usr/local/lib/ruby/gems/2.3.0/gems/sass-3.4.22/bin/sass:13:in `<top (required)>'
+/usr/local/bin/sass:23:in `load'
+/usr/local/bin/sass:23:in `<main>'
+*/
+body:before {
+  white-space: pre;
+  font-family: monospace;
+  content: "Error: The line was indented 2 levels deeper than the previous line.\A         on line 8 of anim.svg\A \A 3:     @include 'cell-animation'\A 4: \A 5:   </style>\A 6:   <g class=\"running-jobs\">\A 7:     <path d=\"./aug5_runningRes_001.svg\"></path>\A 8:         <path d=\"./aug5_runningRes_002.svg\"></path>\A 9:         <path d=\"./aug5_runningRes_003.svg\"></path>\A 10:         <path d=\"./aug5_runningRes_004.svg\"></path>\A 11:         <path d=\"./aug5_runningRes_005.svg\"></path>\A 12:         <path d=\"./aug5_runningRes_006.svg\"></path>\A 13:         <path d=\"./aug5_runningRes_007.svg\"></path>"; }

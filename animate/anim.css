@@ -1,0 +1,343 @@
+.running-jobs > * {
+  opacity: 0;
+  animation-duration: 12s;
+  animation-iteration-count: infinite;
+  animation-timing-function: steps(1); }
+@keyframes cel-ub0l3w4sy {
+  0% {
+    opacity: 1; }
+  2.08333% {
+    opacity: 0; } }
+.running-jobs > :nth-child(1) {
+  animation-name: cel-ub0l3w4sy; }
+@keyframes cel-ub0l3w4t4 {
+  2.08333% {
+    opacity: 1; }
+  4.16667% {
+    opacity: 0; } }
+.running-jobs > :nth-child(2) {
+  animation-name: cel-ub0l3w4t4; }
+@keyframes cel-ub0l3w4t7 {
+  4.16667% {
+    opacity: 1; }
+  6.25% {
+    opacity: 0; } }
+.running-jobs > :nth-child(3) {
+  animation-name: cel-ub0l3w4t7; }
+@keyframes cel-ub0l3w4tb {
+  6.25% {
+    opacity: 1; }
+  8.33333% {
+    opacity: 0; } }
+.running-jobs > :nth-child(4) {
+  animation-name: cel-ub0l3w4tb; }
+@keyframes cel-ub0l3w4tg {
+  8.33333% {
+    opacity: 1; }
+  10.41667% {
+    opacity: 0; } }
+.running-jobs > :nth-child(5) {
+  animation-name: cel-ub0l3w4tg; }
+@keyframes cel-ub0l3w4tp {
+  10.41667% {
+    opacity: 1; }
+  12.5% {
+    opacity: 0; } }
+.running-jobs > :nth-child(6) {
+  animation-name: cel-ub0l3w4tp; }
+@keyframes cel-ub0l3w4tv {
+  12.5% {
+    opacity: 1; }
+  14.58333% {
+    opacity: 0; } }
+.running-jobs > :nth-child(7) {
+  animation-name: cel-ub0l3w4tv; }
+@keyframes cel-ub0l3w4u4 {
+  14.58333% {
+    opacity: 1; }
+  16.66667% {
+    opacity: 0; } }
+.running-jobs > :nth-child(8) {
+  animation-name: cel-ub0l3w4u4; }
+@keyframes cel-ub0l3w4ue {
+  16.66667% {
+    opacity: 1; }
+  18.75% {
+    opacity: 0; } }
+.running-jobs > :nth-child(9) {
+  animation-name: cel-ub0l3w4ue; }
+@keyframes cel-ub0l3w4uh {
+  18.75% {
+    opacity: 1; }
+  20.83333% {
+    opacity: 0; } }
+.running-jobs > :nth-child(10) {
+  animation-name: cel-ub0l3w4uh; }
+@keyframes cel-ub0l3w4ul {
+  20.83333% {
+    opacity: 1; }
+  22.91667% {
+    opacity: 0; } }
+.running-jobs > :nth-child(11) {
+  animation-name: cel-ub0l3w4ul; }
+@keyframes cel-ub0l3w4uu {
+  22.91667% {
+    opacity: 1; }
+  25% {
+    opacity: 0; } }
+.running-jobs > :nth-child(12) {
+  animation-name: cel-ub0l3w4uu; }
+@keyframes cel-ub0l3w4v2 {
+  25% {
+    opacity: 1; }
+  27.08333% {
+    opacity: 0; } }
+.running-jobs > :nth-child(13) {
+  animation-name: cel-ub0l3w4v2; }
+@keyframes cel-ub0l3w4vb {
+  27.08333% {
+    opacity: 1; }
+  29.16667% {
+    opacity: 0; } }
+.running-jobs > :nth-child(14) {
+  animation-name: cel-ub0l3w4vb; }
+@keyframes cel-ub0l3w4vc {
+  29.16667% {
+    opacity: 1; }
+  31.25% {
+    opacity: 0; } }
+.running-jobs > :nth-child(15) {
+  animation-name: cel-ub0l3w4vc; }
+@keyframes cel-ub0l3w4vm {
+  31.25% {
+    opacity: 1; }
+  33.33333% {
+    opacity: 0; } }
+.running-jobs > :nth-child(16) {
+  animation-name: cel-ub0l3w4vm; }
+@keyframes cel-ub0l3w4vq {
+  33.33333% {
+    opacity: 1; }
+  35.41667% {
+    opacity: 0; } }
+.running-jobs > :nth-child(17) {
+  animation-name: cel-ub0l3w4vq; }
+@keyframes cel-ub0l3w4vw {
+  35.41667% {
+    opacity: 1; }
+  37.5% {
+    opacity: 0; } }
+.running-jobs > :nth-child(18) {
+  animation-name: cel-ub0l3w4vw; }
+@keyframes cel-ub0l3w4vy {
+  37.5% {
+    opacity: 1; }
+  39.58333% {
+    opacity: 0; } }
+.running-jobs > :nth-child(19) {
+  animation-name: cel-ub0l3w4vy; }
+@keyframes cel-ub0l3w4w8 {
+  39.58333% {
+    opacity: 1; }
+  41.66667% {
+    opacity: 0; } }
+.running-jobs > :nth-child(20) {
+  animation-name: cel-ub0l3w4w8; }
+@keyframes cel-ub0l3w4w9 {
+  41.66667% {
+    opacity: 1; }
+  43.75% {
+    opacity: 0; } }
+.running-jobs > :nth-child(21) {
+  animation-name: cel-ub0l3w4w9; }
+@keyframes cel-ub0l3w4wi {
+  43.75% {
+    opacity: 1; }
+  45.83333% {
+    opacity: 0; } }
+.running-jobs > :nth-child(22) {
+  animation-name: cel-ub0l3w4wi; }
+@keyframes cel-ub0l3w4wr {
+  45.83333% {
+    opacity: 1; }
+  47.91667% {
+    opacity: 0; } }
+.running-jobs > :nth-child(23) {
+  animation-name: cel-ub0l3w4wr; }
+@keyframes cel-ub0l3w4wz {
+  47.91667% {
+    opacity: 1; }
+  50% {
+    opacity: 0; } }
+.running-jobs > :nth-child(24) {
+  animation-name: cel-ub0l3w4wz; }
+@keyframes cel-ub0l3w4x0 {
+  50% {
+    opacity: 1; }
+  52.08333% {
+    opacity: 0; } }
+.running-jobs > :nth-child(25) {
+  animation-name: cel-ub0l3w4x0; }
+@keyframes cel-ub0l3w4x5 {
+  52.08333% {
+    opacity: 1; }
+  54.16667% {
+    opacity: 0; } }
+.running-jobs > :nth-child(26) {
+  animation-name: cel-ub0l3w4x5; }
+@keyframes cel-ub0l3w4x8 {
+  54.16667% {
+    opacity: 1; }
+  56.25% {
+    opacity: 0; } }
+.running-jobs > :nth-child(27) {
+  animation-name: cel-ub0l3w4x8; }
+@keyframes cel-ub0l3w4xf {
+  56.25% {
+    opacity: 1; }
+  58.33333% {
+    opacity: 0; } }
+.running-jobs > :nth-child(28) {
+  animation-name: cel-ub0l3w4xf; }
+@keyframes cel-ub0l3w4xj {
+  58.33333% {
+    opacity: 1; }
+  60.41667% {
+    opacity: 0; } }
+.running-jobs > :nth-child(29) {
+  animation-name: cel-ub0l3w4xj; }
+@keyframes cel-ub0l3w4xl {
+  60.41667% {
+    opacity: 1; }
+  62.5% {
+    opacity: 0; } }
+.running-jobs > :nth-child(30) {
+  animation-name: cel-ub0l3w4xl; }
+@keyframes cel-ub0l3w4xq {
+  62.5% {
+    opacity: 1; }
+  64.58333% {
+    opacity: 0; } }
+.running-jobs > :nth-child(31) {
+  animation-name: cel-ub0l3w4xq; }
+@keyframes cel-ub0l3w4xs {
+  64.58333% {
+    opacity: 1; }
+  66.66667% {
+    opacity: 0; } }
+.running-jobs > :nth-child(32) {
+  animation-name: cel-ub0l3w4xs; }
+@keyframes cel-ub0l3w4xt {
+  66.66667% {
+    opacity: 1; }
+  68.75% {
+    opacity: 0; } }
+.running-jobs > :nth-child(33) {
+  animation-name: cel-ub0l3w4xt; }
+@keyframes cel-ub0l3w4xz {
+  68.75% {
+    opacity: 1; }
+  70.83333% {
+    opacity: 0; } }
+.running-jobs > :nth-child(34) {
+  animation-name: cel-ub0l3w4xz; }
+@keyframes cel-ub0l3w4y5 {
+  70.83333% {
+    opacity: 1; }
+  72.91667% {
+    opacity: 0; } }
+.running-jobs > :nth-child(35) {
+  animation-name: cel-ub0l3w4y5; }
+@keyframes cel-ub0l3w4y8 {
+  72.91667% {
+    opacity: 1; }
+  75% {
+    opacity: 0; } }
+.running-jobs > :nth-child(36) {
+  animation-name: cel-ub0l3w4y8; }
+@keyframes cel-ub0l3w4yc {
+  75% {
+    opacity: 1; }
+  77.08333% {
+    opacity: 0; } }
+.running-jobs > :nth-child(37) {
+  animation-name: cel-ub0l3w4yc; }
+@keyframes cel-ub0l3w4yi {
+  77.08333% {
+    opacity: 1; }
+  79.16667% {
+    opacity: 0; } }
+.running-jobs > :nth-child(38) {
+  animation-name: cel-ub0l3w4yi; }
+@keyframes cel-ub0l3w4yn {
+  79.16667% {
+    opacity: 1; }
+  81.25% {
+    opacity: 0; } }
+.running-jobs > :nth-child(39) {
+  animation-name: cel-ub0l3w4yn; }
+@keyframes cel-ub0l3w4yp {
+  81.25% {
+    opacity: 1; }
+  83.33333% {
+    opacity: 0; } }
+.running-jobs > :nth-child(40) {
+  animation-name: cel-ub0l3w4yp; }
+@keyframes cel-ub0l3w4yz {
+  83.33333% {
+    opacity: 1; }
+  85.41667% {
+    opacity: 0; } }
+.running-jobs > :nth-child(41) {
+  animation-name: cel-ub0l3w4yz; }
+@keyframes cel-ub0l3w4z3 {
+  85.41667% {
+    opacity: 1; }
+  87.5% {
+    opacity: 0; } }
+.running-jobs > :nth-child(42) {
+  animation-name: cel-ub0l3w4z3; }
+@keyframes cel-ub0l3w4z9 {
+  87.5% {
+    opacity: 1; }
+  89.58333% {
+    opacity: 0; } }
+.running-jobs > :nth-child(43) {
+  animation-name: cel-ub0l3w4z9; }
+@keyframes cel-ub0l3w4zf {
+  89.58333% {
+    opacity: 1; }
+  91.66667% {
+    opacity: 0; } }
+.running-jobs > :nth-child(44) {
+  animation-name: cel-ub0l3w4zf; }
+@keyframes cel-ub0l3w4zg {
+  91.66667% {
+    opacity: 1; }
+  93.75% {
+    opacity: 0; } }
+.running-jobs > :nth-child(45) {
+  animation-name: cel-ub0l3w4zg; }
+@keyframes cel-ub0l3w4zn {
+  93.75% {
+    opacity: 1; }
+  95.83333% {
+    opacity: 0; } }
+.running-jobs > :nth-child(46) {
+  animation-name: cel-ub0l3w4zn; }
+@keyframes cel-ub0l3w4zr {
+  95.83333% {
+    opacity: 1; }
+  97.91667% {
+    opacity: 0; } }
+.running-jobs > :nth-child(47) {
+  animation-name: cel-ub0l3w4zr; }
+@keyframes cel-ub0l3w4zv {
+  97.91667% {
+    opacity: 1; }
+  100% {
+    opacity: 0; } }
+.running-jobs > :nth-child(48) {
+  animation-name: cel-ub0l3w4zv; }
+
+/*# sourceMappingURL=anim.css.map */
