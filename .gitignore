@@ -1,3 +1,4 @@
+##Generic ignores from epd
 ### IPythonNotebook template
 # Temporary data
 .ipynb_checkpoints/
@@ -13,81 +14,27 @@ __pycache__/
 # Distribution / packaging
 .Python
 
+# PyInstaller
+#  Usually these files are written by a python script from a template
+#  before PyInstaller builds the exe, so as to inject date/other infos into it.
+*.manifest
+*.spec
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
 # IPython Notebook
 .ipynb_checkpoints
 
-# Spyder project settings
-.spyderproject
+##This project
 
-# Rope project settings
-.ropeproject
+# web stuff
+.sass-cache/
+bower_components/
+node_modules/
+*.map
 
-### CMake template
-CMakeCache.txt
-CMakeFiles
-CMakeScripts
-Makefile
-cmake_install.cmake
-install_manifest.txt
-### C template
-# Object files
-*.o
-*.ko
-*.obj
-*.elf
+images/
+animate/*.svg
 
-# Precompiled Headers
-*.gch
-*.pch
-
-# Libraries
-*.lib
-*.a
-*.la
-*.lo
-
-# Shared objects (inc. Windows DLLs)
-*.dll
-*.so.*
-*.dylib
-
-# Executables
-*.exe
-*.out
-*.app
-*.i*86
-*.x86_64
-*.hex
-
-# Debug files
-*.dSYM/
-### C++ template
-# Compiled Object files
-*.slo
-
-
-# Fortran module files
-*.mod
-
-# Compiled Static libraries
-*.lai
-
-*.x
-*.pyc
-a.out
-.idea/
-.svn/
-
-.hg/
-testOut/
-*.d
-*.png
-*_0*
-*.gz
-*.eps
-DOSCAR
-PROCAR
-POTCAR
-GPATH
-GTAGS
-GRTAGS
