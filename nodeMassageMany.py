@@ -8,7 +8,11 @@ if __name__ == '__main__':
     for file in sys.argv[1:]:
         print file
         tracks = []
+        count=0
+        outfile="fixed_" + os.path.basename(file)
+        of = open(outfile, 'w') 
         with open(file,'r') as f:
+            of.write("{}".format(f.readline()))
             for line in f.readlines():
                 tracks.append(line.split())
         frequency = {}
@@ -30,9 +34,6 @@ if __name__ == '__main__':
 
         previousJob=0
         nodeCount=1
-        count=0
-        outfile="fixed_" + os.path.basename(file)
-        of = open(outfile, 'w') 
         for rec in tracks:
             if previousJob != rec[2]:
                 of.write("{} {} {} {} {} {} {} {}\n".format(nodeCount,

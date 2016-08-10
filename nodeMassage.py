@@ -3,6 +3,7 @@ import sys
 if __name__ == '__main__':
     tracks = []
     with open(sys.argv[1],'r') as f:
+        print f.readline()
         for line in f.readlines():
             tracks.append(line.split())
     frequency = {}
