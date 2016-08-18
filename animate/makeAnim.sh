@@ -1,6 +1,6 @@
 #!/bin/bash
 
-for fixedf in ../runningJobs/fixed_CADES_JOBS_*
+for fixedf in fixed_CADES_JOBS_*
 do
     num=${fixedf/#*_/}
     fixedfesc=${fixedf//\//\\/}
@@ -10,4 +10,4 @@ do
     gnuplot tplotTrack.gp
 done
 
-python ../svganimator/svganimator.py --basic -s 0.05 runj.svg ./runningRes_*
+python ../svganimator/svganimator.py --basic -s 0.2 runj.svg ./runningRes_*
