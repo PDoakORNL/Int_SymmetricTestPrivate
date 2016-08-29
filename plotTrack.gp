@@ -121,7 +121,7 @@ set xlabel "node count cumulative"
 set xlabel  offset character 0, 0, 0 font "" textcolor lt -1 norotate
 set x2label "" 
 set x2label  offset character 0, 0, 0 font "" textcolor lt -1 norotate
-set xrange [ 0 : 155 ] noreverse nowriteback
+set xrange [ 0 : 163 ] noreverse nowriteback
 set x2range [ * : * ] noreverse nowriteback
 set ylabel "hours remaining" 
 set ylabel  offset character 0, 0, 0 font "" textcolor lt -1 rotate by -270
