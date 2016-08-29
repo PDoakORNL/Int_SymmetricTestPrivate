@@ -39,6 +39,21 @@ export script=$(cat<<EOF
 EOF
        )
 
+export elements=$(cat<<EOF
+<a id='playGroup' display='none' onclick='Play()'>
+      <circle id='play' cx='450' cy='50' r='15' fill='green'/>
+      <polygon points='446,44 457,50 46,56' fill='lime' stroke='lime' stroke-width='2' stroke-linejoin='round'/>
+</a>
+
+<a id='pauseGroup' display='inline' onclick='Pause()'>
+      <circle id='pause' cx='450' cy='50' r='15' fill='red'/>
+      <line x1='447' y1='45' x2='447' y2='55' stroke='pink' stroke-width='4' stroke-linecap='round'/>
+      <line x1='454' y1='45' x2='454' y2='55' stroke='pink' stroke-width='4' stroke-linecap='round'/>
+</a>
+
+EOF
+
+		  
 #=========== Actual Script
 
 for fixedf in fixed_CADES_JOBS_*
@@ -54,4 +69,5 @@ done
 python ../svganimator/svganimator.py --basic -s 0.2 runj.svg ./runningRes_*
 
 cat runj.svg | gsed -r 's/(\<svg?.*width=\"[0-9]+\")\>/ \1 onload=\"Init\(evt\) \" \>/' | \
-gsed -r "s/(\<!--Animation.*--\>)/\1 #$(echo "$script"|tr "\n" "#")/g;s/#/\n/g"
+    gsed -r "s/(\<!--Animation.*--\>)/\1 #$(echo "$script"|tr "\n" "#")/g;s/#/\n/g" | \
+    gsed -r "s/\<\/svg\>/#$(echo "$elements"|tr "\n" "#") \1/g;s/#/\n/g"
