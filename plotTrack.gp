@@ -158,6 +158,6 @@ set fit noerrorvariables
 set term svg
 set output 'runningRes_#NUM#.svg'
 set title 'Running Jobs #date#'
-plot '#fixedFile#' using ($1+$5/2):3:5:($8+.25):cbtic(7) every ::2 with boxes palette title ''
+plot '#fixedFile#' using ($1+$5/2):3:5:($8+.25):cbtic(7) with boxes palette title ''
 
 #    EOF
