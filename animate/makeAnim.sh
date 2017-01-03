@@ -15,6 +15,7 @@ do
     gnuplot tplotTrack.gp
 done
 
+rm -f ./runningRes_\*
 python ../svganimator/svganimator.py --basic -s 0.2 runj.svg ./runningRes_*
 perl ../animate/addPause.pl < runj.svg > prunj.svg
 
