@@ -1,4 +1,5 @@
 #!/bin/bash
+export PATH=/opt/torque/bin/:$PATH
 cd /home/epd/monitor
 dir=`date +'%b%d_%Y'`
 mkdir $dir
