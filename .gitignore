@@ -37,4 +37,13 @@ node_modules/
 
 images/
 animate/*.svg
+*_2016/
+Aug*/
+running*/
+*.out
+*.log
+*.png
+*.jpg
 
+*~
+*#
