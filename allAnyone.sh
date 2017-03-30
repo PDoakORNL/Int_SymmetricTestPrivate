@@ -1,7 +1,8 @@
 #!/bin/bash
 account=$1
-account_users=$(mdiag -a $account | awk -F'(,| *)' '/Users:/ {for (i=3; i<=NF; i++) print $i}')
+account_users=$(getent group cades-$1 | awk -F':' '{print $4}' | sed -e 's/,/ /g')
 
+echo $account_users
 # for edde in ${eddes[@]}
 # do
 #     qstat -u ${edde}
