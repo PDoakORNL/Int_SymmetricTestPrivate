@@ -4,6 +4,13 @@ account=${ARGS[0]}
 unset ARGS[0]
 qos=(${ARGS[@]})
 
+if [[ $account =~ ^-h ]]
+then
+    echo "allAnyone.sh account [qos...]"
+    exit
+fi
+
+    
 account_users=$(getent group cades-$1 | awk -F':' '{print $4}' | sed -e 's/,/ /g')
 
 echo "$account: $account_users"
