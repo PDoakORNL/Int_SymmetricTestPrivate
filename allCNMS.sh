@@ -1,3 +1,3 @@
 #!/bin/bash
 
-./allAnyone.sh cnms
+allAnyone.sh cnms
